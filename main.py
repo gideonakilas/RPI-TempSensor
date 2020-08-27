@@ -1,7 +1,7 @@
 import Adafruit_DHT
 import time
 
-DHT_SENSOR = Adafruit_DHT11
+DHT_SENSOR = Adafruit_DHT.DHT11
 DHT_PIN = 23
 
 while True:
